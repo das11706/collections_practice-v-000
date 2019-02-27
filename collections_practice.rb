@@ -41,7 +41,7 @@ end
 def add_s(array)
   array.each_with_index.map{|element, index|
     /(\w)+((d|e)\b)/ =~ element
-    element}
+    element.concat("s")}
 
 end
 

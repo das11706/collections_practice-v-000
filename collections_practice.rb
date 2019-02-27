@@ -44,7 +44,7 @@ def add_s(array)
     element.concat("s")
 
   }
-  array.delete_at([1])
+  array.delete_at(1)
 
 end
 

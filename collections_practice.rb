@@ -42,9 +42,9 @@ def add_s(array)
   array.each_with_index.map{|element, index|
     /(\w)+((d|e)\b)/ =~ element
     element.concat("s")
-      
-  }
 
+  }
+  array.delete_at([1])
 
 end
 

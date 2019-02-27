@@ -39,12 +39,24 @@ def sum_array(array)
 end
 
 def add_s(array)
-  badword = array.delete_at(1)
-  array.select { |word| /(\w)+((d|e)\b)/ =~ word }.map do |word|
-  word.concat("s") 
+  array.each_with_index.map{|element, index|
+    /(\w)+((d|e)\b)/ =~ element
+    element}
 
-  end
 end
+
+#def add_s(array)
+  #badword = array.delete_at(1)
+  #array.select { |word| /(\w)+((d|e)\b)/ =~ word }.map do |word|
+  #word.concat("s")
+  #end
+#end
+
+#[1,2].each_with_index.collect{|element, index| }
+
+#text Home to
+
+#a.insert(index, obj)
 #(\w)+((d|e)\b)
 
 #array.select { |e| /\b\A[a]\w*/ =~ e }

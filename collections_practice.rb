@@ -40,7 +40,7 @@ end
 
 def add_s(array)
   array.map{|element|
-    if element.length > 3
+    if element.length > 4
     element.concat("s")
   else element.concat(" ")
   end

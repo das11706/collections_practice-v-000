@@ -44,8 +44,8 @@ def add_s(array)
     element.concat("s")
 
   }
-  array.delete_at(1)
-  array
+  #array.delete_at(1)
+  #array
 
 end
 

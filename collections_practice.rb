@@ -45,7 +45,7 @@ def add_s(array)
   }
   #array.delete_at(1)
   #array
-  end
+  #end
   #array.delete_at(1)
   #array
 end

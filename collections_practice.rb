@@ -40,19 +40,14 @@ end
 
 def add_s(array)
   array.each_with_index.map{|element, index|
-    if index > 1
-      element.concat("s")
-    elsif index < 1
-    #{}/(\w)+((d|e)\b)/ =~ element
+  if index > 1
     element.concat("s")
+  elsif index < 1
+    #{}/(\w)+((d|e)\b)/ =~ element
+  element.concat("s")
   else element
   end
   }
-  #array.delete_at(1)
-  #array
-  #end
-  #array.delete_at(1)
-  #array
 end
 
 

@@ -42,13 +42,13 @@ def add_s(array)
   array.each_with_index.map{|element, index|
     /(\w)+((d|e)\b)/ =~ element
     element.concat("s")
-
   }
   #array.delete_at(1)
   #array
-
 end
 
+
+#array.map { |x| x == 4 ? 'Z' : x }
 #def add_s(array)
   #badword = array.delete_at(1)
   #array.select { |word| /(\w)+((d|e)\b)/ =~ word }.map do |word|

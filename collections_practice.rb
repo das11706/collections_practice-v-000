@@ -43,6 +43,7 @@ def add_s(array)
     if index < 1 || > 1
     #{}/(\w)+((d|e)\b)/ =~ element
     element.concat("s")
+  end
   }
   #array.delete_at(1)
   #array

@@ -39,7 +39,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map{|element, index|
+  array.map{|element|
     /(\w)+((d|e)\b)/ =~ element
     element.concat("s")
   }

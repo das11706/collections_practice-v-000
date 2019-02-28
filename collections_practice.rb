@@ -40,11 +40,10 @@ end
 
 def add_s(array)
     if array[0] || array[2] || array[3]
-
     array.concat("s")
   #else element.concat("")
   end
-  }
+  
   #array.delete_at(1)
   #array
 end

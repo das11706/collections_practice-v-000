@@ -39,9 +39,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map{|element|
-    if element
-    element.concat("s")
+    if array[0] || array[2] || array[3]
+
+    array.concat("s")
   #else element.concat("")
   end
   }

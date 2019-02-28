@@ -42,7 +42,7 @@ def add_s(array)
   array.map{|element|
     if element == /(\w)+((d|e)\b)/ 
     element.concat("s")
-  
+
   end
   }
   #array.delete_at(1)

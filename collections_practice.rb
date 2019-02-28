@@ -40,7 +40,7 @@ end
 
 def add_s(array)
   array.map{|element|
-    if element == /(\w)+((d|e)\b)/ 
+    if element.index < 1 || >1 
     element.concat("s")
 
   end

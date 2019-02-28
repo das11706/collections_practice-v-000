@@ -42,7 +42,7 @@ def add_s(array)
   array.map{|element|
     if element.length > 4
     element.concat("s")
-  else element.concat("o")
+  else element.concat("")
   end
   }
   #array.delete_at(1)

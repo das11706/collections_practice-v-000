@@ -39,11 +39,13 @@ def sum_array(array)
 end
 
 def add_s(array)
-    if array[0] || array[2] || array[3]
-    array.join.concat("s")
-  #else element.concat("")
+  array.each_with_index.map{|element, index|
+    /(\w)+((d|e)\b)/ =~ element
+    element.concat("s")
+  }
+  #array.delete_at(1)
+  #array
   end
-
   #array.delete_at(1)
   #array
 end
